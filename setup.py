@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 with open('README.rst') as f:
@@ -15,7 +15,7 @@ setup(name="systeminfo",
       url="https://github.com/MartinC20xx/systeminfo.git",
       author="Martin Casey",
       author_email="martin.casey@ucdconnect.ie",
-      licence=licence,
-      packages=["systeminfo"],
+      licence="GPL3",
+      packages=find_packages(exclude=('tests', 'docs')),
       entry_points={
           "console_scripts":['comp30670_systeminfo=systeminfo.main:main']})
