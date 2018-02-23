@@ -1,12 +1,9 @@
-Sample Module Repository
+systeminfo Repository
 ========================
 
-This simple project is an example repo for Python projects.
+-This simple program returns the platform details of the machine it is run on.
+-It can be installed using pip by typing the following into the command line:
+	pip install git+https://github.com/MartinC20xx/systeminfo.git
+-Once installed, it can be run as a command line program be typing the following:
+	comp30670_systeminfo
 
-`Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
-
----------------
-
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.
-
-✨🍰✨

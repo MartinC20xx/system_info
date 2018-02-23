@@ -11,13 +11,13 @@ from wheel.signatures import assertTrue
 class TestSystemInfo(unittest.TestCase):
     """Sample test."""
 
-    def test_PrintPlatform(self):
-        output = main.printPlatform()
-        self.assertEqual(main.printPlatform(), output)
+    #def test_PrintPlatform(self):
+     #   output = main.printPlatform()
+      #  self.assertEqual(main.printPlatform(), output)
     
-    def test_Main(self):
-        output = main.main()
-        self.assertIsNotNone(main.printMachineName())
+   # def test_Main(self):
+    #    output = main.main()
+     #   self.assertIsNotNone(main.printMachineName())
      
 
 
